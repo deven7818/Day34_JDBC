@@ -10,6 +10,10 @@ import java.util.List;
 public class PayrollFileIO {
 	public static String PAYROLL_FILE_NAME = "EmployeePayrollServiceMySql.txt";
 
+	/**
+	 * Method to write data to file
+	 * @param employeePayrollList
+	 */
 	public void writeData(List<PayrollData> employeePayrollList) {
 		StringBuffer buffer = new StringBuffer();
 		employeePayrollList.forEach(employee -> {

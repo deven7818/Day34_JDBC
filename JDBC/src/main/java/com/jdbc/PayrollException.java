@@ -3,7 +3,7 @@ package com.jdbc;
 @SuppressWarnings("serial")
 public class PayrollException extends Exception{
 	enum ExceptionType {
-		CONNECTION_PROBLEM, RETRIVAL_PROBLEM;
+		CONNECTION_PROBLEM, RETRIVAL_PROBLEM, UPDATE_PROBLEM;
 	}
 	
 	ExceptionType type;
