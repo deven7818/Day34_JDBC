@@ -76,6 +76,11 @@ public class PayrollService {
 
 	}
 
+	/**
+	 * Count employee Entries
+	 * @param fileIo
+	 * @return
+	 */
 	public long countEntries(IOService fileIo) {
 		if (fileIo.equals(IOService.FILE_IO)) {
 			return new PayrollFileIO().countEntries();
