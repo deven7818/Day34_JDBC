@@ -10,6 +10,7 @@ public class PayrollData {
 	double salary;
 	private LocalDate start;
 	
+	
 	/**
 	 * parameterized constructor
 	 * @param id - id of employee

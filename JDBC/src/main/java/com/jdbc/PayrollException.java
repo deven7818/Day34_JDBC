@@ -1,5 +1,10 @@
 package com.jdbc;
 
+/**
+ * Custom Exception
+ * @author Asus
+ *
+ */
 @SuppressWarnings("serial")
 public class PayrollException extends Exception{
 	enum ExceptionType {
